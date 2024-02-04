@@ -1,0 +1,59 @@
+div.test{
+    width: 300px;
+    height: 950px;
+    float: left;
+    text-align:center;
+    color:black;
+    background-color:sandybrown;
+    margin-left:10px;
+    position: relative;
+   }
+
+div.test2{
+    display: block;
+    width: 1520px;
+    height: 950px;
+    float: left;
+    text-align:center;
+    color:black;
+    background-color:darkcyan;
+    margin-left:10px;
+    position: relative;
+   }
+
+   div.top1{
+    display: flex;
+    width: 486px;
+    height: 300px;
+    float: left;
+    color:black;
+    background-color:white;
+    margin-top:8px;
+    margin-left:11px;
+    margin-right:8px;
+    margin-bottom:8px;
+    position: relative;
+   }
+   
+   .text{
+    font-size: 16px;
+    position: absolute;
+    left: 240px;
+    top: 110px;
+    display: block;
+    width: 200px;
+    height: 200px; 
+    object-fit: cover;
+   }
+
+   img.photo{
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    float: left;
+    display: block;
+    width: 200px;
+    height: 200px; 
+    object-fit: cover;
+    margin: auto;
+   }
