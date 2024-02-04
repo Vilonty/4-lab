@@ -1,37 +1,48 @@
+body {
+    background-image: url('изображения/bg.jpg');
+    background-size: cover;
+}
 div.test{
+    opacity: 0.7;
+    border-radius: 16px;
     width: 300px;
     height: 950px;
     float: left;
     text-align:center;
     color:black;
-    background-color:sandybrown;
+    background-color:rgba(250, 191, 226, 0.3);
     margin-left:10px;
-    position: relative;
+    position: relative
+    ;
    }
 
 div.test2{
+
+    border-radius: 20px;
     display: block;
     width: 1520px;
     height: 950px;
     float: left;
     text-align:center;
     color:black;
-    background-color:darkcyan;
+    background-color:rgba(227, 253, 253, 0.2);
     margin-left:10px;
     position: relative;
    }
 
    div.top1{
+
+    border-radius: 15px;
     display: flex;
     width: 486px;
     height: 300px;
     float: left;
     color:black;
-    background-color:white;
+    background-color:rgba(245, 245, 245,0.2);
     margin-top:8px;
     margin-left:11px;
     margin-right:8px;
-    margin-bottom:8px;
+    margin-bottom:6px;
     position: relative;
    }
    
@@ -39,7 +50,7 @@ div.test2{
     font-size: 16px;
     position: absolute;
     left: 240px;
-    top: 110px;
+    top: 130px;
     display: block;
     width: 200px;
     height: 200px; 
@@ -47,6 +58,7 @@ div.test2{
    }
 
    img.photo{
+    border-radius: 6px;
     position: absolute;
     left: 10px;
     top: 50px;
